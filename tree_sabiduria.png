@@ -1,0 +1,7 @@
+digraph {
+	1838524688848 [label="Usuario de la fuerza es sabio?"]
+	1838524786704 [label="¿Tiene más de 1000 aportaciones?"]
+	1838524688848 -> 1838524786704
+	1838524784464 [label="Es sabio"]
+	1838524786704 -> 1838524784464
+}

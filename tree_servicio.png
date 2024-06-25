@@ -1,0 +1,21 @@
+digraph {
+	1838524006672 [label="Usuario de la fuerza tiene al menos 5 años de servicio?"]
+	1838524779088 [label="Es maestro"]
+	1838524006672 -> 1838524779088
+	1838524781200 [label="Usuario de la fuerza tiene menos de 3 años de servicio?"]
+	1838524006672 -> 1838524781200
+	1838524781584 [label="Es prospecto"]
+	1838524781200 -> 1838524781584
+	1838524780880 [label="Usuario de la fuerza tiene menos de 50 misiones?"]
+	1838524781200 -> 1838524780880
+	1838524780240 [label="Es aprendiz"]
+	1838524780880 -> 1838524780240
+	1838524778320 [label="Usuario de la fuerza tiene entre 50 y 100 misiones?"]
+	1838524780880 -> 1838524778320
+	1838524777680 [label="Es discipulo"]
+	1838524778320 -> 1838524777680
+	1838524776784 [label="Usuario de la fuerza tiene más de 100 misiones?"]
+	1838524778320 -> 1838524776784
+	1838524779088 [label="Es maestro"]
+	1838524776784 -> 1838524779088
+}

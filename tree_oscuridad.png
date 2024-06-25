@@ -1,0 +1,9 @@
+digraph {
+	1838524688400 [label="¿Usuario de la fuerza es oscuro?"]
+	1838516776528 [label="Es considerado sith"]
+	1838524688400 -> 1838516776528
+	1838523928784 [label="Usuario de la fuerza es luminoso?"]
+	1838524688400 -> 1838523928784
+	1838524351632 [label="Es considerado jedi"]
+	1838523928784 -> 1838524351632
+}

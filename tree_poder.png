@@ -1,0 +1,11 @@
+digraph {
+	1838523997200 [label="Usuario de la fuerza es poderoso?"]
+	1838524780944 [label="¿Tiene más de 500 midiclorianos?"]
+	1838523997200 -> 1838524780944
+	1838524781392 [label="Es poderoso"]
+	1838524780944 -> 1838524781392
+	1838524783440 [label="¿Tiene menos de 500 midiclorianos?"]
+	1838523997200 -> 1838524783440
+	1838524784592 [label="Es debil"]
+	1838524783440 -> 1838524784592
+}
